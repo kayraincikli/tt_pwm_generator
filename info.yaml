@@ -24,17 +24,17 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "duty_cycle[0]"
+  ui[1]: "duty_cycle[1]"
+  ui[2]: "duty_cycle[2]"
+  ui[3]: "duty_cycle[3]"
+  ui[4]: "duty_cycle[4]"
+  ui[5]: "duty_cycle[5]"
+  ui[6]: "duty_cycle[6]"
+  ui[7]: "duty_cycle[7]"
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "pwm_out"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
