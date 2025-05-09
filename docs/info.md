@@ -9,12 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
-
+This project aims to implement a PWM generator with an adjustable duty cycle. The user enters duty cycle values via the ui_in port. The pwm_generator module creates a 50 kHz PWM signal with the specified duty cycle.
 ## How to test
 
-Explain how to use your project
+Enter a specified duty cycle value and observe the uo_out[0] port. The PWM signal should be present on this output.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+There is no external hardware.
